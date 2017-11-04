@@ -61,6 +61,6 @@ Accuracy: 0.983
 ![alt text](plots.png "Formulas")
 ## How to Run?
 ```bash
-$cd /path/to/0037975
+$cd /path/to/
 $python3 train.py
 ```

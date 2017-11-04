@@ -16,6 +16,6 @@ To plot contours, for each feature of x, random values are sampled between the `
 
 ## To run
 ```sh
-$cd /to/path/0037975
+$cd /to/path/
 $python3 train.py
 ```  
