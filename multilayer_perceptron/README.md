@@ -1,5 +1,4 @@
-# COMP 521 Introduction to ML
-## Homework 3
+# Multilayer Perceptron
 ## Generating Training Data
 To generate random samples from given multivariate Gaussian Distrubitions ```numpy.random.multivariate_normal``` method is used. ```Data``` class takes in a string as argument. This string has the following form ```<mean vector>$<first row of covariance matrix>$<num samples>$<class num>``` and for multiple distributions, these are separated with ```;```. ```Data``` class's ```get_training_data``` method is used to get the training data. This function takes input ```shuffle``` as a parameter. Default value for ```shuffle``` is ```True```.
 Expected outputs are formed using one-hot representation for each class.
